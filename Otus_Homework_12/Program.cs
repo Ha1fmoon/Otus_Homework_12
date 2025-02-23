@@ -25,8 +25,8 @@ internal class Program
 
         try
         {
-            List<string>? nullList = null;
-            nullList = nullList?.Top(20).ToList();
+            List<string> nullList = null;
+            nullList = nullList.Top(20).ToList();
         }
         catch (Exception e)
         {
